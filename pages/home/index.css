@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*o código acima elimina espaços naturais do html */
+
+body{
+    width:960px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background-color:#0f131a;
+    color:#e9ebf0;
+}
+
+header{
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 0px;
+    
+}
+
+
+.quebra{
+    clear: both;
+}
+/*a classe acima foi criada apenas para encerrrar o efeito sobre o footer*/
+
+.foto img{
+    width:100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+h1{
+    padding:3px;
+}
+
+h2{
+    font-size:18px;
+    text-align:center;
+}
+
+nav{
+    margin: 4px 0;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:#e9ebf0;
+    transition:300ms;
+}
+
+a:hover{
+    background-color: #a269ff;
+    color:#e9ebf0;
+}
+
+h3{
+    font-size: 18px;
+    margin-top:18px;
+    padding: 10px 0px;
+    border-top: solid 3px #470099;
+}
+
+p{
+    margin: 18px;
+}
+
+.destaque{
+    color:#00f593;
+    font-weight: bold;
+}
+
+.job img{
+    width: 220px;
+    height: 220px;
+    background-color: #ccc;
+    float:left;
+    margin: 4px;;
+}
+
+li{
+    margin: 8px 0;
+    
+}
+
+footer{
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+/*--Mobile: as regras abaixo são apenas para telas grandes--*/
+@media(min-width:1024px){
+    aside{
+        width: 16%;
+        float:left;
+        padding: 4px;
+        text-align: right;
+        
+    }
+    
+    main{
+        width:80%;
+        float:right;
+        padding: 4px;
+    }
+
+}
